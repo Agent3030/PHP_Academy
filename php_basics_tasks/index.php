@@ -5,10 +5,9 @@
 	<title>PHP Basics Tasks</title>
 </head>
 <body>
-	<h1>PHP basics tasks</h1>
 	
 	<?php
-	
+
 	//task #1
   include 't1.php';
   //task #2
@@ -89,6 +88,7 @@
    //task #24
   include 't27.php';
 
+  
   ?>
 	
 </body>
