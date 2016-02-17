@@ -1,7 +1,13 @@
+
 <?php
-	for ($i = 1; $i <= 10; $i++){
-		for ($j = 1; $j <= 10; $j++){
-			echo $i*$j;
-		}
-		echo '<br/>';
-	}
+  $i = 1;
+  
+  while ($i <= 10 ) {
+  		$j = 1;
+  	while ($j <= 10) {
+  		echo $i*$j;
+  		$j++;
+  	}
+  	echo '<br/>';
+  	$i++;
+  }
